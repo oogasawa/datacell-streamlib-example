@@ -1,0 +1,21 @@
+{
+	"name": "datacell-streamlib-example",
+	"version": "1.0.0",
+	"description": "Example scripts for datacell-streamlib",
+	"main": "index.js",
+	"scripts": {
+		"build": "npx gulp",
+		"test": "npx mocha -r ts-node/register test/**/*.spec.ts",
+		"typedoc": "npx typedoc  --out docs src"
+	},
+	"author": "Osamu Ogasawara",
+	"license": "ISC",
+	"dependencies": {
+		"datacell-streamlib": "git+https://github.com/oogasawa/datacell-streamlib.git"
+	},
+	"devDependencies": {
+		"gulp": "^4.0.2",
+		"gulp-cli": "^2.3.0",
+		"gulp-typescript": "^6.0.0-alpha.1"
+	}
+}
